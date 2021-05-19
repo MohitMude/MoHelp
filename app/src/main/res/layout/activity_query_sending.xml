@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".student.QuerySendingActivity"
+    android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/txt_send_to"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To:"
+        android:textSize="24sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="4dp"
+        android:padding="4dp"
+        />
+
+        <TextView
+            android:id="@+id/txt_send_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name: "
+            android:textSize="22sp"
+            android:layout_marginEnd="4dp"
+            android:padding="4dp"
+
+            android:layout_below="@id/txt_send_to"
+            />
+        <TextView
+            android:id="@+id/txt_send_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Title: "
+            android:textSize="22sp"
+            android:layout_marginEnd="4dp"
+            android:padding="4dp"
+
+            android:layout_below="@id/txt_send_name"
+            />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/send_query_link"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_send_title"
+            android:hint="@string/enter_link_drive_link_of_documents_is_any"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="4dp"
+            android:padding="4dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edt_txt_link"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/send_query_text"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_below="@id/send_query_link"
+            android:hint="@string/enter_your_query"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="4dp"
+            android:padding="4dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edt_txt_text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+               android:gravity="start"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/btn_send_query"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:text="send"
+            android:layout_marginTop="28dp"
+            android:textColor="#FFFFFF"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@id/send_query_text"/>
+
+    </RelativeLayout>
+
+</ScrollView>

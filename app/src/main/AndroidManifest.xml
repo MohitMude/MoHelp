@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.iitism.mohelp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".admin.ReplyActivity"></activity>
+        <activity android:name=".admin.AdminProfileActivity" />
+        <activity
+            android:name=".admin.AdminHomeActivity"
+            android:label="@string/title_activity_admin_home"
+            android:theme="@style/AppTheme.NoActionBar.NoActionBar" />
+        <activity android:name=".student.StudentProfileActivity" />
+        <activity android:name=".student.QuerySendingActivity" />
+        <activity android:name=".SignUpAdminActivity" />
+        <activity
+            android:name=".student.StudentHomeActivity"
+            android:label="@string/title_activity_student_home"
+            android:theme="@style/AppTheme.NoActionBar.NoActionBar" />
+        <activity android:name=".LoginCheckerActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".VerificationActivity" />
+        <activity android:name=".SignUpStudentActivity" />
+        <activity android:name=".LoginActivity" />
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>

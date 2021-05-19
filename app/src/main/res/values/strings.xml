@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">MoHelp</string>
+    <string name="login">Login</string>
+    <string name="enter_email_college_domain">Enter email of college domain</string>
+    <string name="enter_email">Enter email</string>
+    <string name="enter_password">Enter password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="enter_name">Enter name</string>
+    <string name="enter_admission_no">Enter Admission No.</string>
+    <string name="enter_branch">Enter branch with year of study</string>
+    <string name="enter_hostel_name">Enter hostel name</string>
+    <string name="enter_phone_no">Enter phone no.</string>
+    <string name="get_verification_mail">Get verification mail</string>
+    <string name="title_activity_student_home">Home</string>
+
+
+    <string name="profile">Profile</string>
+    <string name="all_queries">All queries</string>
+    <string name="logout">Logout</string>
+    <string name="loading">Loading..</string>
+    <string name="type_here">type here</string>
+    <string name="enter_title">Enter title</string>
+    <string name="enter_link_drive_link_of_documents_is_any">Enter link drive link of documents(if any)..</string>
+    <string name="enter_your_query">Enter your query</string>
+    <string name="title_activity_admin_home">Home</string>
+    <string name="enter_your_reply">Enter your reply</string>
+</resources>

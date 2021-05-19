@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "99474782573",
+    "project_id": "mohelp-f760e",
+    "storage_bucket": "mohelp-f760e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:99474782573:android:473623784d5fea5d110264",
+        "android_client_info": {
+          "package_name": "com.iitism.mohelp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "99474782573-1i5bsecrbai049c3bt7e89hkrkmtop25.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHqpUnKZg-DA12AFpBw_sXBrVnkALYlLk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "99474782573-1i5bsecrbai049c3bt7e89hkrkmtop25.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

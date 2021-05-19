@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.iitism.mohelp.student.StudentHomeActivity">
+    <item
+        android:id="@+id/menu_main_profile"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="@string/profile" />
+
+    <item
+        android:id="@+id/menu_main_all_query"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="@string/all_queries" />
+    <item
+        android:id="@+id/menu_main_logout"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="@string/logout" />
+
+</menu>
